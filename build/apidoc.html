@@ -1,0 +1,288 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/Lucifier129/react-lite"
+
+    >react-lite (v0.15.34)</a>
+</h1>
+<h4>an implementation of React that optimizes for small script size</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-lite">module react-lite</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-lite.shallowCompare">
+            function <span class="apidocSignatureSpan">react-lite.</span>shallowCompare
+            <span class="apidocSignatureSpan">(instance, nextProps, nextState)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-lite.</span>ReactComponentWithPureRenderMixin</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-lite.</span>ReactStateSetters</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-lite.ReactComponentWithPureRenderMixin">module react-lite.ReactComponentWithPureRenderMixin</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-lite.ReactComponentWithPureRenderMixin.shouldComponentUpdate">
+            function <span class="apidocSignatureSpan">react-lite.ReactComponentWithPureRenderMixin.</span>shouldComponentUpdate
+            <span class="apidocSignatureSpan">(nextProps, nextState)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-lite.ReactStateSetters">module react-lite.ReactStateSetters</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-lite.ReactStateSetters.createStateKeySetter">
+            function <span class="apidocSignatureSpan">react-lite.ReactStateSetters.</span>createStateKeySetter
+            <span class="apidocSignatureSpan">(component, key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-lite.ReactStateSetters.createStateSetter">
+            function <span class="apidocSignatureSpan">react-lite.ReactStateSetters.</span>createStateSetter
+            <span class="apidocSignatureSpan">(component, funcReturningState)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-lite.ReactStateSetters.</span>Mixin</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-lite.shallowCompare">module react-lite.shallowCompare</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-lite.shallowCompare.shallowCompare">
+            function <span class="apidocSignatureSpan">react-lite.</span>shallowCompare
+            <span class="apidocSignatureSpan">(instance, nextProps, nextState)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-lite" id="apidoc.module.react-lite">module react-lite</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-lite.shallowCompare" id="apidoc.element.react-lite.shallowCompare">
+        function <span class="apidocSignatureSpan">react-lite.</span>shallowCompare
+        <span class="apidocSignatureSpan">(instance, nextProps, nextState)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function shallowCompare(instance, nextProps, nextState) {
+  return !shallowEqual(instance.props, nextProps) || !shallowEqual(instance.state, nextState);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-lite.ReactComponentWithPureRenderMixin" id="apidoc.module.react-lite.ReactComponentWithPureRenderMixin">module react-lite.ReactComponentWithPureRenderMixin</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-lite.ReactComponentWithPureRenderMixin.shouldComponentUpdate" id="apidoc.element.react-lite.ReactComponentWithPureRenderMixin.shouldComponentUpdate">
+        function <span class="apidocSignatureSpan">react-lite.ReactComponentWithPureRenderMixin.</span>shouldComponentUpdate
+        <span class="apidocSignatureSpan">(nextProps, nextState)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function shouldComponentUpdate(nextProps, nextState) {
+  return shallowCompare(this, nextProps, nextState);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-lite.ReactStateSetters" id="apidoc.module.react-lite.ReactStateSetters">module react-lite.ReactStateSetters</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-lite.ReactStateSetters.createStateKeySetter" id="apidoc.element.react-lite.ReactStateSetters.createStateKeySetter">
+        function <span class="apidocSignatureSpan">react-lite.ReactStateSetters.</span>createStateKeySetter
+        <span class="apidocSignatureSpan">(component, key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createStateKeySetter(component, key) {
+  // Memoize the setters.
+  var cache = component.__keySetters || (component.__keySetters = {});
+  return cache[key] || (cache[key] = _createStateKeySetter(component, key));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  /**
+* Returns a single-argument callback that can be used to update a single
+* key in the component&#x27;s state.
+*
+* For example, these statements are equivalent:
+*
+*   this.setState({x: 1});
+*   this.<span class="apidocCodeKeywordSpan">createStateKeySetter</span>(&#x27;x&#x27;)(1);
+*
+* Note: this is memoized function, which makes it inexpensive to call.
+*
+* @param {string} key The key in the state that you should update.
+* @return {function} callback of 1 argument which calls setState() with
+*                    the provided keyName and callback argument.
+*/
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-lite.ReactStateSetters.createStateSetter" id="apidoc.element.react-lite.ReactStateSetters.createStateSetter">
+        function <span class="apidocSignatureSpan">react-lite.ReactStateSetters.</span>createStateSetter
+        <span class="apidocSignatureSpan">(component, funcReturningState)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createStateSetter(component, funcReturningState) {
+  return function (a, b, c, d, e, f) {
+    var partialState = funcReturningState.call(component, a, b, c, d, e, f);
+    if (partialState) {
+      component.setState(partialState);
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  /**
+* Returns a function that calls the provided function, and uses the result
+* of that to set the component&#x27;s state.
+*
+* For example, these statements are equivalent:
+*
+*   this.setState({x: 1});
+*   this.<span class="apidocCodeKeywordSpan">createStateSetter</span>(function(xValue) {
+*     return {x: xValue};
+*   })(1);
+*
+* @param {function} funcReturningState Returned callback uses this to
+*                                      determine how to update state.
+* @return {function} callback that when invoked uses funcReturningState to
+*                    determined the object literal to setState.
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-lite.shallowCompare" id="apidoc.module.react-lite.shallowCompare">module react-lite.shallowCompare</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-lite.shallowCompare.shallowCompare" id="apidoc.element.react-lite.shallowCompare.shallowCompare">
+        function <span class="apidocSignatureSpan">react-lite.</span>shallowCompare
+        <span class="apidocSignatureSpan">(instance, nextProps, nextState)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function shallowCompare(instance, nextProps, nextState) {
+  return !shallowEqual(instance.props, nextProps) || !shallowEqual(instance.state, nextState);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
