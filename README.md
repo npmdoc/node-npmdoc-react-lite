@@ -1,4 +1,7 @@
-# api documentation for  [react-lite (v0.15.34)](https://github.com/Lucifier129/react-lite)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-lite.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-lite) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-lite.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-lite)
+# npmdoc-react-lite
+
+#### basic api documentation for  [react-lite (v0.15.34)](https://github.com/Lucifier129/react-lite)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-lite.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-lite) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-lite.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-lite)
+
 #### an implementation of React that optimizes for small script size
 
 [![NPM](https://nodei.co/npm/react-lite.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-lite)
@@ -94,7 +97,8 @@
         "prepublish": "npm test && npm run build",
         "test": "jest"
     },
-    "version": "0.15.34"
+    "version": "0.15.34",
+    "bin": {}
 }
 ```
 
